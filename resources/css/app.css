@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-container {
+    position: relative;
+  }
+  
+  .icon-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  
+  .icon-container i {
+    font-size: 80px;
+  }
+
+.overflow-x-auto::-webkit-scrollbar {
+    height: 4px; 
+    width: 4px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb {
+    background: #1D4ED8; 
+    border-radius: 0.5rem;
+}
